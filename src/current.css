@@ -1,0 +1,46 @@
+.Current.current-weather-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Current .current-weather-info ul {
+  color: #524948;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Current .current-weather-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Current {
+  border: 1px solid #869e9b;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.Current .current-temperature {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Current .Current.current-temperature p {
+  font-size: 30px;
+}
+.Current .temperature-number {
+  font-size: 80px;
+}
+
+.Current .temperature-unit {
+  position: relative;
+  font-size: 18px;
+  top: -40px;
+}
