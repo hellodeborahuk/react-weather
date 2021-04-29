@@ -16,7 +16,7 @@ export default function App() {
         <Current />
       </div>
       <p className="source-link">
-        <a href="https://github.com/hellodeborahuk/my-weather-app">
+        <a href="https://github.com/hellodeborahuk/react-weather">
           Open-source code
         </a>{" "}
         by Debbie Dann
